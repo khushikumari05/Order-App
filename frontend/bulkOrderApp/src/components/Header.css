@@ -1,0 +1,24 @@
+.header {
+    background-color: #4caf50; /* Green background */
+    display: flex;
+    justify-content: space-around; /* Spaced out links */
+    padding: 1rem;
+    align-items: center;
+  }
+  
+  .header a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .header a:hover {
+    color: #d4f8d4; /* Light green on hover */
+  }
+  
+  .header a:active {
+    color: #1f7a1f; /* Dark green for active links */
+  }
+  
